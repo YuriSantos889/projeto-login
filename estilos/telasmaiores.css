@@ -8,17 +8,30 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        max-width: 550px;
-        padding-right: 10px;
-        
+        max-width: 800px;
+        padding-bottom: 0;
+    }
+
+    main{
+        width: 70vw;
     }
 
     main section #imagem > img{
-        border-top-right-radius: 20px;
-        border-top-left-radius: 0px;
-        border-bottom-right-radius: 10px;
-        height: 250px;
-        margin-top: 25px;
+        height: 100%;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 0;
+        width: 100%;
+    }
+
+    #imagem{
+        height: 350px;
+        width: 80%;
+    }
+
+    #formulario{
+        height: 350px;
+        text-align: center;
     }
 
 
@@ -26,11 +39,13 @@
         padding-left: 30px;
         background-color: rgba(255, 255, 255, 0.678);
         padding: 0;
-        margin: 10px;
+        margin:0px;
         padding-bottom: 20px;
         padding-right: 15px;
-        border-top-left-radius: 20px;
+        border-top-left-radius: 0px;
         border-top-right-radius: 20px;
+        border-bottom-left-radius: 0;
+       
     }
 }
 
