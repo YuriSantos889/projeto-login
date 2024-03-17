@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+
+
+
+@media screen and (min-width:768px) and (max-width: 1023px){
+    #tela{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        max-width: 550px;
+        padding-right: 10px;
+        
+    }
+
+    main section #imagem > img{
+        border-top-right-radius: 20px;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 10px;
+        height: 250px;
+        margin-top: 25px;
+    }
+
+
+    main section #formulario{
+        padding-left: 30px;
+        background-color: rgba(255, 255, 255, 0.678);
+        padding: 0;
+        margin: 10px;
+        padding-bottom: 20px;
+        padding-right: 15px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1700px) {
+   main{
+    display: flex;
+    width: 800px;
+    height: 500px;
+    background-image: url(../imagens/pexels-jalil-shams-1007523.jpg);
+    background-size: cover;
+   }
+
+   img{
+    display: none;
+   }
+
+   #tela{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50vh;
+    margin: auto;
+   }
+
+   #formulario{
+    background-color:rgba(255, 255, 255, 0.904);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+   }
+}
